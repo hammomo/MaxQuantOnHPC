@@ -12,5 +12,6 @@ A guideline for using MaxQuant to analyze proteomics data on High Performance Co
   * Please contact the author <hanyi.mo@postgrad.manchester.ac.uk> for this package.
 * Mono Framework >= 5.4.1 
   * [Mono installation tutorial](https://www.mono-project.com/download/stable/#download-lin).
-  * The mono version installed on our HPC is `Mono JIT compiler version 5.14.0.177`
+  * The mono version installed on our HPC is
+  `Mono JIT compiler version 5.14.0.177`
 
