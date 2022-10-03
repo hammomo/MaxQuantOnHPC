@@ -4,8 +4,10 @@ A guideline for using MaxQuant to analyze proteomics data on High Performance Co
 
 ## Table of Contents
 
-* [Requirements](#requirements)
-* [MaxQuant Configuration Preparation](#maxquant-configuration-preparation)
+- [MaxQuantOnHPC](#maxquantonhpc)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [MaxQuant Configuration Preparation](#maxquant-configuration-preparation)
 
 ## Requirements
 
@@ -35,5 +37,5 @@ For our stable version (v1.6.2.6), the command should be:
 
 Whilst the relative/absolute paths of the executable file (`MaxQuant/bin/MaxQuantCmd.exe`) and configuration file (`mqpar.xml`) should be adjusted according to your own environment.
 
-
+Fortunately, the configuration file `mqpar.xml` is in fact a plain markup file written by ***Extensible Markup Language***, consisting of trees of node objectives. It can be edited by any lightweight cross-platform editors (*e.g., Vim, Emacs, VSCode, Sublime Text*).
 
